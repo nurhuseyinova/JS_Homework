@@ -1,3 +1,14 @@
+
+// 1.Loop text
+let fed="Front-end Developer";
+for(let i=0; i<fed.length; i++ ){
+  console.log(fed.slice(0,i+1)); 
+}
+
+
+
+
+
 // 3.Sum of even numbers(e.g:2,4,6...)in 10.
 let sum = 0;
 for (let i = 0; i < 10; i++) {
@@ -61,4 +72,9 @@ for(let i=1; i<=16; i++){
         console.log(`${i}   ${i**2}`);
     }
 }
+
+
+
+
+
 
