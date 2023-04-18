@@ -35,7 +35,7 @@ const countries =
   'Kenya'
 ]
 function filterCountries(){
-    let sliced=countries.map((el,index) => (el.slice(0, 3).toLocaleUpperCase()));
+    let sliced=countries.map((el,index) => (`${index}.${el.slice(0, 3).toLocaleUpperCase()}`));
     return sliced;
 }
 console.log(filterCountries());
@@ -46,7 +46,8 @@ let numbers = [
     5, 6, 3, 7, 3, 7,
   ];
 let sum=0
- let result2=numbers.find((el,i)=>el===7 ? console.log(sum+=i):null);
+ let result2=numbers.forEach((el,i)=>el===7 ? sum+=i:null);
+ console.log(sum)
 
 const todos = [
   {
