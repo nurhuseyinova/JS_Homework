@@ -1,0 +1,45 @@
+.start {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.range{
+    color: blue;
+    font-size: 25px;
+}
+.stop{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.incdec{
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.reset{
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+    padding: 15px 40px;
+    font-size: 25px;
+}
+.num{
+    border: 2px solid coral;
+    padding: 5px 5px;
+    font-size: 20px;
+    outline: none;
+  
+}
+.inputbtn{
+    background-color: rgb(250, 213, 190);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
