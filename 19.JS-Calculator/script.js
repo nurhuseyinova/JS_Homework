@@ -8,7 +8,7 @@ let division = document.querySelector("#division");
 let reset = document.querySelector("#reset");
 
 addition.addEventListener("click", function () {
-  result.value = value1.value + value2.value;
+  result.value = +value1.value + +value2.value;
 });
 substract.addEventListener("click", function () {
   result.value = value1.value - value2.value;
