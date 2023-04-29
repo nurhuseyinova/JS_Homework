@@ -1,0 +1,49 @@
+
+.sec1{
+    padding: 100px 0;
+}
+.container{
+    padding: 50px 30px;
+    max-width: 500px;
+    background-color: rgb(247, 199, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+input{
+    padding: 5px ;
+    border-radius: 5px;
+}
+.result{
+    background-color: black;
+    color: white;
+    width: 350px;
+    margin: 15px 0;
+}
+.value{
+    width: 170px;
+}
+
+.btn{width: 350px;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(225, 225, 252);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#reset{
+    background-color: rgb(219, 134, 7);
+    font-weight: bold;
+    margin-top: 15px;
+    width: 350px;
+    padding: 5px;
+
+}
