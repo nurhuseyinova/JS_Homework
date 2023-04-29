@@ -17,7 +17,7 @@ multiply.addEventListener("click", function () {
   result.value = value1.value * value2.value;
 });
 division.addEventListener("click", function () {
-  result.value = value1.value - value2.value;
+  result.value = value1.value / value2.value;
 });
 reset.addEventListener("click", function () {
   result.value = 0;
