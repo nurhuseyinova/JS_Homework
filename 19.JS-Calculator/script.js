@@ -7,20 +7,51 @@ let multiply = document.querySelector("#multiply");
 let division = document.querySelector("#division");
 let reset = document.querySelector("#reset");
 
+let num = 0;
 addition.addEventListener("click", function () {
-  result.value = +value1.value + +value2.value;
+  if(value1.value == ""||value2.value == ""){
+    num=0
+    result.innerText = num;
+
+  }
+  else{
+  num = +value1.value + +value2.value;
+  result.innerText = num;}
 });
 substract.addEventListener("click", function () {
-  result.value = value1.value - value2.value;
+  if(value1.value == ""||value2.value == ""){
+    num=0
+    result.innerText = num;
+
+  }
+  else{
+  num = value1.value - value2.value;
+  result.innerText = num;}
 });
 multiply.addEventListener("click", function () {
-  result.value = value1.value * value2.value;
+  if(value1.value == ""||value2.value == ""){
+    num=0
+    result.innerText = num;
+
+  }
+  else{
+  num = value1.value * value2.value;
+  result.innerText = num;}
 });
 division.addEventListener("click", function () {
-  result.value = value1.value / value2.value;
+  if(value1.value == ""||value2.value == ""){
+    num=0
+    result.innerText = +num;
+
+  }
+  else{
+  num = value1.value / value2.value;
+  result.innerText = num;}
 });
 reset.addEventListener("click", function () {
-  result.value = 0;
+  num = 0;
+  result.innerText = num;
+
   value1.value = "";
   value2.value = "";
 });
