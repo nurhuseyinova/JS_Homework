@@ -12,6 +12,8 @@ addition.addEventListener("click", function () {
   if(value1.value == ""||value2.value == ""){
     num=0
     result.innerText = num;
+    alert("Enter the number!")
+
 
   }
   else{
@@ -22,6 +24,7 @@ substract.addEventListener("click", function () {
   if(value1.value == ""||value2.value == ""){
     num=0
     result.innerText = num;
+    alert("Enter the number!");
 
   }
   else{
@@ -32,6 +35,7 @@ multiply.addEventListener("click", function () {
   if(value1.value == ""||value2.value == ""){
     num=0
     result.innerText = num;
+    alert("Enter the number!");
 
   }
   else{
@@ -42,6 +46,7 @@ division.addEventListener("click", function () {
   if(value1.value == ""||value2.value == ""){
     num=0
     result.innerText = +num;
+    alert("Enter the number!");
 
   }
   else{
