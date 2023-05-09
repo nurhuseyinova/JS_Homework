@@ -1,0 +1,24 @@
+{
+    "users": [
+      {
+        "id": "2",
+        "country": "Amerika",
+        "city": "New"
+      },
+      {
+        "id": "3",
+        "country": "Avstraliya",
+        "city": "Nuu"
+      },
+      {
+        "id": "4",
+        "country": "England",
+        "city": "London"
+      },
+      {
+        "id": "5",
+        "country": "Az",
+        "city": "Baku"
+      }
+    ]
+  }
