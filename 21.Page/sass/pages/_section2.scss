@@ -1,0 +1,82 @@
+.sec2 {
+  p {
+    font-size: 40px;
+  }
+  .row {
+    .col-12 {
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      height: 65vh;
+      width: 20%;
+      margin: 15px;
+      display: flex;
+      align-items: flex-end;
+      &:hover {
+        opacity: 0.6;
+      }
+      p {
+        font-size: 30px !important;
+        line-height: 4vh;
+        color: $color-white;
+      }
+      @media only screen and (max-width: 992px) {
+        background-position: center;
+        height: 20vh;
+        width: 40%;
+      }
+      @media only screen and (max-width: 767px) {
+        height: 25vh;
+        width: 100%;
+      }
+    }
+    .card1 {
+      background-image: url("../desktopimg/deep-earth.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/deep-earth.jpg");
+      }
+    }
+    .card2 {
+      background-image: url("../desktopimg/night-arcade.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/night-arcade.jpg");
+      }
+    }
+    .card3 {
+      background-image: url("../desktopimg/soccer-team.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/soccer-team.jpg");
+      }
+    }
+    .card4 {
+      background-image: url("../desktopimg/grid.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/grid.jpg");
+      }
+    }
+    .card5 {
+      background-image: url("../desktopimg/from-above.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/from-above.jpg");
+      }
+    }
+    .card6 {
+      background-image: url("../desktopimg/pocket-borealis.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/pocket-borealis.jpg");
+      }
+    }
+    .card7 {
+      background-image: url("../desktopimg/curiosity.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/curiosity.jpg");
+      }
+    }
+    .card8 {
+      background-image: url("../desktopimg/fisheye.jpg");
+      @media only screen and (max-width: 992px) {
+        background-image: url("../mobileimg/fisheye.jpg");
+      }
+    }
+  }
+}

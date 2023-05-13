@@ -1,0 +1,28 @@
+.sec1 {
+  img {
+    width: 70%;
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+  .item {
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: -300px;
+
+    left: 520px;
+    padding: 60px;
+    border: 1px solid white;
+    background-color: $color-white;
+    h5 {
+      color: rgb(159, 144, 214);
+    }
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+      padding: 0;
+      top: 0px;
+      left: 0px;
+    }
+  }
+}

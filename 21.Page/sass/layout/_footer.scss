@@ -1,0 +1,56 @@
+footer {
+  background-color: $color-black;
+  @include display;
+  .footer1 {
+    h2 {
+      color: $color-white;
+    }
+    ul {
+      @include display;
+      text-align: start;
+      gap: 15px;
+      li {
+        a {
+          color: $color-white;
+          font-weight: bold;
+          &:hover{
+            border-bottom: 2px solid white;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      ul {
+        flex-direction: column;
+      }
+    }
+  }
+  .footer2 {
+    h5 {
+      color: gray;
+      font-size: 15px;
+    }
+    ul {
+      @include display;
+      justify-content: end;
+      gap: 20px;
+      li {
+        a {
+          color: $color-white;
+          font-size: 25px;
+          &:hover{
+            border-bottom: 2px solid white;
+          }
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        justify-content: center;
+      }
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    line-height: 5vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
