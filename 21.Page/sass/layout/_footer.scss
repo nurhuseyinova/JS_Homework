@@ -7,7 +7,7 @@ footer {
     }
     ul {
       @include display;
-      text-align: start;
+      padding-inline-start: 0px;
       gap: 15px;
       li {
         a {
@@ -29,6 +29,8 @@ footer {
     h5 {
       color: gray;
       font-size: 15px;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: bold
     }
     ul {
       @include display;

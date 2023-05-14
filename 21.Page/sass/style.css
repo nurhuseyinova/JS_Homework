@@ -25,6 +25,16 @@ footer {
   padding: 3% 10%;
 }
 
+p,
+.sec1 h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
 header {
   width: 100%;
   height: 100vh;
@@ -35,12 +45,26 @@ header {
 }
 header p {
   color: #ffffff;
-  padding: 40px;
-  font-family: "Montserrat", sans-serif;
+  border: 2px solid white;
+  padding: 40px 80px 40px 40px;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
-  margin: 140px 480px 100px 0px;
+  margin-top: 200px;
+  width: 60%;
   line-height: 8vh;
   letter-spacing: 2px;
+}
+@media only screen and (max-width: 992px) {
+  header p {
+    width: 90%;
+    font-size: 30px;
+    line-height: 4vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header p {
+    font-size: 20px;
+  }
 }
 header nav {
   display: flex;
@@ -96,17 +120,17 @@ header nav .fa-bars {
   }
 }
 .sec1 .item {
-  width: 60%;
-  text-align: center;
   position: relative;
   top: -300px;
   left: 520px;
+  width: 50%;
+  text-align: center;
   padding: 60px;
   border: 1px solid white;
   background-color: #ffffff;
 }
 .sec1 .item h5 {
-  color: rgb(159, 144, 214);
+  color: rgb(206, 205, 209);
 }
 @media only screen and (max-width: 992px) {
   .sec1 .item {
@@ -115,10 +139,34 @@ header nav .fa-bars {
     top: 0px;
     left: 0px;
   }
+  .sec1 .item h1 {
+    margin: 20px 0;
+  }
 }
 
-.sec2 p {
+.sec2 .seeall {
+  border: 1px solid black;
+  padding: 15px 50px;
+  background-color: #ffffff;
+  color: black;
+  letter-spacing: 2px;
+}
+.sec2 .seeall:hover {
+  background-color: black;
+  color: #ffffff;
+}
+.sec2 .sec2head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec2 .sec2head p {
   font-size: 40px;
+}
+@media only screen and (max-width: 992px) {
+  .sec2 .sec2head .btnstart {
+    display: none;
+  }
 }
 .sec2 .row .col-12 {
   background-size: cover;
@@ -140,14 +188,13 @@ header nav .fa-bars {
 @media only screen and (max-width: 992px) {
   .sec2 .row .col-12 {
     background-position: center;
-    height: 20vh;
-    width: 40%;
+    height: 15vh;
+    width: 45%;
   }
 }
 @media only screen and (max-width: 767px) {
   .sec2 .row .col-12 {
-    height: 25vh;
-    width: 100%;
+    width: 90%;
   }
 }
 .sec2 .row .card1 {
@@ -214,6 +261,19 @@ header nav .fa-bars {
     background-image: url("../mobileimg/fisheye.jpg");
   }
 }
+.sec2 .btnend {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .sec2 .btnend {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sec2 .btnend {
+    padding: 10px 20%;
+  }
+}
 
 footer {
   background-color: black;
@@ -228,7 +288,8 @@ footer .footer1 ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-align: start;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
   gap: 15px;
 }
 footer .footer1 ul li a {
@@ -246,6 +307,8 @@ footer .footer1 ul li a:hover {
 footer .footer2 h5 {
   color: gray;
   font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 }
 footer .footer2 ul {
   display: flex;
