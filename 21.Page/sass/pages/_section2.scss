@@ -14,7 +14,10 @@
   .sec2head {
     @include display;
     p {
-      font-size: 40px;
+      font-size: 50px;
+      @media only screen and (max-width: 767px) {
+        font-size: 30px;
+      }
     }
     .btnstart {
       @media only screen and (max-width: 992px) {
@@ -101,9 +104,10 @@
     display: none;
     @media only screen and (max-width: 992px) {
       display: block;
+      padding: 15px 30%;
     }
     @media only screen and (max-width: 767px) {
-      padding: 10px 20%;
+      padding: 10px 25%;
     }
   }
 }

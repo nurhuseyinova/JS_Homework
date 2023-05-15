@@ -102,13 +102,21 @@ header nav ul li a:hover {
 }
 header nav .fa-bars {
   display: none;
+  color: #ffffff;
+  font-size: 30px;
 }
 @media only screen and (max-width: 992px) {
   header nav .fa-bars {
     display: block;
-    color: #ffffff;
-    font-size: 30px;
   }
+}
+header nav #headUl {
+  display: none;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
 }
 @media only screen and (max-width: 992px) {
   header {
@@ -166,7 +174,12 @@ header nav .fa-bars {
   justify-content: space-between;
 }
 .sec2 .sec2head p {
-  font-size: 40px;
+  font-size: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .sec2 .sec2head p {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .sec2 .sec2head .btnstart {
@@ -272,11 +285,12 @@ header nav .fa-bars {
 @media only screen and (max-width: 992px) {
   .sec2 .btnend {
     display: block;
+    padding: 15px 30%;
   }
 }
 @media only screen and (max-width: 767px) {
   .sec2 .btnend {
-    padding: 10px 20%;
+    padding: 10px 25%;
   }
 }
 
@@ -332,6 +346,8 @@ footer .footer2 ul li a:hover {
 @media only screen and (max-width: 992px) {
   footer .footer2 ul {
     justify-content: center;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
   }
 }
 @media only screen and (max-width: 992px) {

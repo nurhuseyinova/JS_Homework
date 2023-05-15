@@ -13,7 +13,7 @@ footer {
         a {
           color: $color-white;
           font-weight: bold;
-          &:hover{
+          &:hover {
             border-bottom: 2px solid white;
           }
         }
@@ -30,7 +30,7 @@ footer {
       color: gray;
       font-size: 15px;
       font-family: "Josefin Sans", sans-serif;
-      font-weight: bold
+      font-weight: bold;
     }
     ul {
       @include display;
@@ -40,13 +40,14 @@ footer {
         a {
           color: $color-white;
           font-size: 25px;
-          &:hover{
+          &:hover {
             border-bottom: 2px solid white;
           }
         }
       }
       @media only screen and (max-width: 992px) {
         justify-content: center;
+        padding-inline-start: 0px;
       }
     }
   }
